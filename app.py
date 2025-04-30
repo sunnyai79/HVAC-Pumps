@@ -30,7 +30,7 @@ def predict_machine_status(user_df):
     return ['NORMAL' if pred == 0 else 'BROKEN' for pred in predictions]
 
 # --- Streamlit UI ---
-st.title("🛠️ Machine Status Prediction App")
+st.title("🛠️ HVAC Pumps Prediction App")
 option = st.radio("Choose Input Method", ["Single Data Point", "Upload Multiple Data Points (CSV)"])
 
 if option == "Single Data Point":
