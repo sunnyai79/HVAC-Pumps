@@ -1,4 +1,4 @@
-# 🛠️ Machine Status Prediction App
+# 🛠️ HVAC Pumps Prediction App
 
 This project is a **Streamlit-based web application** that predicts machine status (NORMAL or BROKEN) based on sensor readings using a pre-trained machine learning model. It allows users to input single data points or upload batch CSV files for bulk prediction.
 
