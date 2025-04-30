@@ -4,8 +4,8 @@ import joblib
 import numpy as np
 
 # Load model and scaler
-best_model = joblib.load('C:/Users/HP/Downloads/AI Engineer Assignment/AI Engineer Assignment/best_model.pkl')
-scaler = joblib.load('C:/Users/HP/Downloads/AI Engineer Assignment/AI Engineer Assignment/scaler.pkl')
+best_model = joblib.load('best_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 # Sensors used
 final_sensors = ['sensor_00', 'sensor_04', 'sensor_06', 'sensor_07',
