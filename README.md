@@ -4,6 +4,14 @@ This project is a **Streamlit-based web application** that predicts machine stat
 
 ---
 
+## 🔗 Dataset Source
+
+The model was trained using sensor data available on Kaggle:
+
+**[📂 View the pump sensor data]([https://www.kaggle.com/your-dataset-link](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data))**  
+
+---
+
 ## 🚀 Deployment & Running the App
 
 ### 🔧 Requirements
@@ -70,7 +78,7 @@ To access:
 ├── best_model.pkl         # Trained ML model
 ├── scaler.pkl             # Pre-fitted scaler for input normalization
 ├── requirements.txt       # Python dependencies
-└── ai.ipynb               # (Optional) Jupyter notebook with code exploration (if needed)
+└── create_app.ipynb              # (Optional) Jupyter notebook with code exploration (if needed)
 ```
 
 ---
